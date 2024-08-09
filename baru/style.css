@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "sans-serif";
+    background-color: lightblue;
+  }
+  .fcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding :0;
+    margin: 0;
+    width:100%;
+    height: auto;
+    box-shadow: 0 7px 15px 0 rgba(rgb(0, 0, 255));
+  }
+
+  .nava{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    background-color: #222;
+  }
+  .judul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: -160px ;
+  }
+  .judul h1{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+  }
+  .menu{
+    margin: 5px auto;
+    padding: 5px;
+    display: inline-table;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    text-align: center;
+    width: 76px;
+    background-color:#e4e4e4;
+  }
+  .menu li{
+    list-style-type: none;
+    display: inline-table;
+    position:relative;
+    align-items: normal;
+  }
+  .menu li a{
+    color: #141414;
+    font-size: 18px;
+    text-decoration:solid;
+    text-transform:lowercase;
+  }
+  .menu :hover{
+background-color: aqua;
+  }
+  .menu>li>a:hover{
+    color: #d31212;
+    transition: all .3s ease-in-out;
+  }
+  summary{
+    text-decoration:none;
+    color: #8a8a8a;
+    margin: auto;
+  }
+  .container{
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    background-color: white;
+    
+  }
+  .isi{
+    padding: 50px;
+  }
+  .isi h2{
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .footer{
+    background-color: black;
+    height: 50px;
+}
+.coppy{
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    
+}
+.coppy a{
+    color: lightblue;
+    text-decoration: none;
+}
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
